@@ -1,0 +1,22 @@
+ppxf\_assistant package
+=======================
+
+Submodules
+----------
+
+ppxf\_assistant.ppxf\_assistant module
+--------------------------------------
+
+.. automodule:: ppxf_assistant.ppxf_assistant
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: ppxf_assistant
+   :members:
+   :undoc-members:
+   :show-inheritance:

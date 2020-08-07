@@ -1,0 +1,37 @@
+.. PPxF Assistant documentation master file, created by
+   sphinx-quickstart on Tue Jul 21 16:06:36 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to PPxF Assistant's documentation!
+==========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+Introduction
+============
+
+``ppxf_assistant`` is a small package designed to apply the PPxF method to Integrated Field Spectra (IFS), with an aim to make it also more interactive.
+
+Motivation
+**********
+
+To make the usage of PPxF easier and more interactive. 
+
+
+Limitations
+***********
+
+- Currently it only works with NIFS data
+
+- Still missing the creation of some output files (errors and temp_weights).
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
