@@ -1,0 +1,427 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>ppxf_assistant package &#8212; PPxF Assistant 0.0.4 documentation</title>
+    <link rel="stylesheet" href="../../_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="../../_static/bizstyle.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">PPxF Assistant 0.0.4 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../../index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">ppxf_assistant package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-ppxf_assistant.ppxf_assistant">ppxf_assistant.ppxf_assistant module</a></li>
+<li><a class="reference internal" href="#module-ppxf_assistant">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/docs/source/ppxf_assistant.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ppxf-assistant-package">
+<h1>ppxf_assistant package<a class="headerlink" href="#ppxf-assistant-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-ppxf_assistant.ppxf_assistant">
+<span id="ppxf-assistant-ppxf-assistant-module"></span><h2>ppxf_assistant.ppxf_assistant module<a class="headerlink" href="#module-ppxf_assistant.ppxf_assistant" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant">
+<em class="property">class </em><code class="sig-prename descclassname">ppxf_assistant.ppxf_assistant.</code><code class="sig-name descname">Assistant</code><span class="sig-paren">(</span><em class="sig-param">cube</em>, <em class="sig-param">templates_directory</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class used to make the application of PPxF easier.</p>
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.cube">
+<code class="sig-name descname">cube</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.cube" title="Permalink to this definition">¶</a></dt>
+<dd><p>A cube that represents the data that will be processed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Cube object (from this package)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.templates_directory">
+<code class="sig-name descname">templates_directory</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.templates_directory" title="Permalink to this definition">¶</a></dt>
+<dd><p>A String that represents the absolute path where the templates are stored.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.templates_names">
+<code class="sig-name descname">templates_names</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.templates_names" title="Permalink to this definition">¶</a></dt>
+<dd><p>A list with all the names of the templates being used.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.templates">
+<code class="sig-name descname">templates</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.templates" title="Permalink to this definition">¶</a></dt>
+<dd><p>A dictionary of the templates that are to be used.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.ntemplates">
+<code class="sig-name descname">ntemplates</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.ntemplates" title="Permalink to this definition">¶</a></dt>
+<dd><p>The total number of templates that are to be used.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.output_directory">
+<code class="sig-name descname">output_directory</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.output_directory" title="Permalink to this definition">¶</a></dt>
+<dd><p>A String that represents the absolute path where the results are to be
+saved at.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>String</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.results_ppxf">
+<code class="sig-name descname">results_ppxf</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.results_ppxf" title="Permalink to this definition">¶</a></dt>
+<dd><p>A list that contains the results after having used PPxF in the cube</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.setOutputDirectory">
+<code class="sig-name descname">setOutputDirectory</code><span class="sig-paren">(</span><em class="sig-param">output_directory</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.setOutputDirectory" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the output directory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.apply_ppxf">
+<code class="sig-name descname">apply_ppxf</code><span class="sig-paren">(</span><em class="sig-param">self</em>, <em class="sig-param">galnoise</em>, <em class="sig-param">FWHM_gal</em>, <em class="sig-param">FWHM_tem</em>, <em class="sig-param">z</em>, <em class="sig-param">moments</em>, <em class="sig-param">plot=False</em>, <em class="sig-param">directory_plots=''</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.apply_ppxf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Applies the PPxF method to the trimmed data of the cube</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Assistant.createResultsFile">
+<code class="sig-name descname">createResultsFile</code><span class="sig-paren">(</span><em class="sig-param">self</em>, <em class="sig-param">filename='results.txt'</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Assistant.createResultsFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is saves the results in a tab separated file in the output directory.</p>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">apply_ppxf</code><span class="sig-paren">(</span><em class="sig-param">galnoise</em>, <em class="sig-param">FWHM_gal</em>, <em class="sig-param">FWHM_tem</em>, <em class="sig-param">z</em>, <em class="sig-param">moments</em>, <em class="sig-param">plot=False</em>, <em class="sig-param">directory_plots=''</em><span class="sig-paren">)</span></dt>
+<dd><p>This is the method that uses the PPxF package and applies it to the trimmed
+data. It saves the results in the class variable ‘results_ppxf’. It also has the
+possibility of saving the plots that it produces.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>galnoise</strong> (<em>float</em>) – Noise in the galaxy’s data.</p></li>
+<li><p><strong>FWHM_gal</strong> (<em>float</em>) – Full width-half maximum of the galaxy.</p></li>
+<li><p><strong>FWHM_tem</strong> (<em>float</em>) – Full width-half maximum of the templates.</p></li>
+<li><p><strong>z</strong> (<em>float</em>) – The galaxy’s redshift.</p></li>
+<li><p><strong>moments</strong> (<em>int</em>) – The number of moments that should be used with PPxF.</p></li>
+<li><p><strong>plot</strong> (<em>boolean</em><em>, </em><em>optional</em>) – Boolean to determine if the plots should be saved.</p></li>
+<li><p><strong>directory_plots</strong> (<em>String</em>) – String that represents the absolute path where the plots are
+to be saved at.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">createResultsFile</code><span class="sig-paren">(</span><em class="sig-param">filename='results.txt'</em><span class="sig-paren">)</span></dt>
+<dd><p>This is saves the results in a tab separated file in the output directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>filename</strong> (<em>String</em><em>, </em><em>optional</em>) – String that represents the name that the output file will have.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">setOutputDirectory</code><span class="sig-paren">(</span><em class="sig-param">output_directory</em><span class="sig-paren">)</span></dt>
+<dd><p>Sets the class variable output_directory.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>output_directory</strong> (<em>String</em>) – String of the absolute path where the results are to be exported to.</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="ppxf_assistant.ppxf_assistant.Cube">
+<em class="property">class </em><code class="sig-prename descclassname">ppxf_assistant.ppxf_assistant.</code><code class="sig-name descname">Cube</code><span class="sig-paren">(</span><em class="sig-param">file_name</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A class used to represent Integrated Field Spectrums that have a ‘cube’ shape.</p>
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.header">
+<code class="sig-name descname">header</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.header" title="Permalink to this definition">¶</a></dt>
+<dd><p>A formatted table that contains the corresponding header for this scientific data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Header object (Astropy)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.data">
+<code class="sig-name descname">data</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.data" title="Permalink to this definition">¶</a></dt>
+<dd><p>A 3d numpy array that stores the scientific data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>numpy array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.trimmed_data">
+<code class="sig-name descname">trimmed_data</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.trimmed_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>A 3d numpy array that stores the trimmed scientific data, used for analyzing.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>numpy array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.wavelength_range">
+<code class="sig-name descname">wavelength_range</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.wavelength_range" title="Permalink to this definition">¶</a></dt>
+<dd><p>An array with only two values: the wavelengths that correspond to the first
+and last frames.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>numpy array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.wavelengths">
+<code class="sig-name descname">wavelengths</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.wavelengths" title="Permalink to this definition">¶</a></dt>
+<dd><p>An array with all the wavelengths corresponding to all the frames in the cube.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>numpy array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.nframes">
+<code class="sig-name descname">nframes</code><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.nframes" title="Permalink to this definition">¶</a></dt>
+<dd><p>The number of frames contained in the data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.trimData">
+<code class="sig-name descname">trimData</code><span class="sig-paren">(</span><em class="sig-param">s1</em>, <em class="sig-param">e1</em>, <em class="sig-param">s2</em>, <em class="sig-param">e2</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.trimData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets the trimmed_data with the limits for the first axis being s1 and e1,
+and the limits for the second axis being s2 and e2.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.displayFrameStatic">
+<code class="sig-name descname">displayFrameStatic</code><span class="sig-paren">(</span><em class="sig-param">frame_number</em>, <em class="sig-param">needs_grid=False</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.displayFrameStatic" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to display a specific frame. It gives an option to add a grid
+to the plot.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.displayFrameInteractive">
+<code class="sig-name descname">displayFrameInteractive</code><span class="sig-paren">(</span><em class="sig-param">frame_number</em>, <em class="sig-param">needs_grid</em>, <em class="sig-param">s1</em>, <em class="sig-param">e1</em>, <em class="sig-param">s2</em>, <em class="sig-param">e2</em><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.displayFrameInteractive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to display a specific frame with a specific trim, with the
+possibility of adding a grid. This method is used internally by this class
+and is not intended for the user. The user should instead use the
+displayFrameStatic method.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="ppxf_assistant.ppxf_assistant.Cube.interactiveDataDisplay">
+<code class="sig-name descname">interactiveDataDisplay</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ppxf_assistant.ppxf_assistant.Cube.interactiveDataDisplay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Method used to interactevely explore the raw data. It allows to visualize
+different frames as well as trim the scientific data in an interactive manner.</p>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">displayFrameInteractive</code><span class="sig-paren">(</span><em class="sig-param">frame_number</em>, <em class="sig-param">needs_grid</em>, <em class="sig-param">s1</em>, <em class="sig-param">e1</em>, <em class="sig-param">s2</em>, <em class="sig-param">e2</em><span class="sig-paren">)</span></dt>
+<dd><p>Used to display a specific frame with a specific trim, with the
+possibility of adding a grid. This method is used internally by this class
+and is not intended for the user.</p>
+<p>The user should instead use the displayFrameStatic method.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>frame_number</strong> (<em>int</em>) – Index of the frame that will be displayed.</p></li>
+<li><p><strong>needs_grid</strong> (<em>boolean</em>) – When set to True, a grid is added on top of the plot.</p></li>
+<li><p><strong>s1</strong> (<em>int</em>) – The lower limit for the first axis.</p></li>
+<li><p><strong>e1</strong> (<em>int</em>) – The upper limit for the first axis.</p></li>
+<li><p><strong>s2</strong> (<em>int</em>) – The lower limit for the second axis.</p></li>
+<li><p><strong>e2</strong> (<em>int</em>) – The upper limit for the second axis.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>fig</strong> – Figure that contains the frame within the desired limits that
+is going to be displayed.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>matplotlib Figure</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">displayFrameStatic</code><span class="sig-paren">(</span><em class="sig-param">frame_number</em>, <em class="sig-param">needs_grid=False</em><span class="sig-paren">)</span></dt>
+<dd><p>Displays a static single frame from the data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>frame_number</strong> (<em>int</em>) – Index of the frame that will be displayed.</p></li>
+<li><p><strong>needs_grid</strong> (<em>boolean</em><em>, </em><em>optional</em>) – When set to True, a grid is added on top of the plot.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">interactiveDataDisplay</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dd><p>Displays a dashboard that can be used to interactively explore
+the raw data and trim it.</p>
+</dd></dl>
+
+<dl class="method">
+<dt>
+<code class="sig-name descname">trimData</code><span class="sig-paren">(</span><em class="sig-param">s1</em>, <em class="sig-param">e1</em>, <em class="sig-param">s2</em>, <em class="sig-param">e2</em><span class="sig-paren">)</span></dt>
+<dd><p>Sets the class variable trimmed_data with the parameters provided
+by the user.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>s1</strong> (<em>int</em>) – The lower limit for the first axis.</p></li>
+<li><p><strong>e1</strong> (<em>int</em>) – The upper limit for the first axis.</p></li>
+<li><p><strong>s2</strong> (<em>int</em>) – The lower limit for the second axis.</p></li>
+<li><p><strong>e2</strong> (<em>int</em>) – The upper limit for the second axis.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-ppxf_assistant">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-ppxf_assistant" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">PPxF Assistant 0.0.4 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Diego Gonzalez.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.0.
+    </div>
+  </body>
+</html>
